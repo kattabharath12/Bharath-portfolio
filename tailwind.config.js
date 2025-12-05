@@ -17,4 +17,16 @@ module.exports = {
     },
   },
   plugins: [],
+  safelist: [
+    'bg-brand-primary',
+    'bg-brand-secondary',
+    'bg-brand-accent',
+    'text-brand-primary',
+    'text-brand-secondary',
+    'text-brand-accent',
+    'border-brand-primary',
+    'border-brand-secondary',
+    'border-brand-accent',
+    'hover:bg-blue-700',
+  ],
 };
