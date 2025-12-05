@@ -3,7 +3,7 @@ module.exports = {
   darkMode: 'class',
   content: [
     './src/app/**/*.{js,ts,jsx,tsx}',
-    './src/components/**/*.{js,ts,jsx,tsx}'
+    './src/components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -11,10 +11,10 @@ module.exports = {
         brand: {
           primary: '#2563EB',
           secondary: '#10B981',
-          accent: '#F97316'
-        }
-      }
-    }
+          accent: '#F97316',
+        },
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 };
